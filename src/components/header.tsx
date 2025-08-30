@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import Menu from "./Menu";
 export default function Header(){
     return(
         <header className="border-b border-white/10 px-3 py-4 flex items-center justify-between bg-black ">
@@ -16,11 +16,7 @@ export default function Header(){
             priority
             />
             </Link>
-            <nav className="flex gap-6 text-sm">
-                <Link href='/'>Home</Link>
-                <Link href='/'>Explore</Link>
-                <Link href='/'>Profile</Link>
-            </nav>
+            <Menu/>
         </header>
     )
 }
