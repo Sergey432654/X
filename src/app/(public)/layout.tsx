@@ -4,9 +4,9 @@ import type { PropsWithChildren } from "react";
 export default function Layout({children}:
     PropsWithChildren<unknown>){
         return(
-            <div>
+            <div className="">
                 <Header/>
-                {children}
+                <div className=" flex justify-center">{children}</div>
             </div>
         )
     }
