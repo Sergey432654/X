@@ -3,7 +3,7 @@ import type{ ITweet } from "../types/tweet.interface";
 export const TWEETS: ITweet[] = [
   {
     author: 'hooks_hermit',
-    text: 'If your effect fixes your effect, your effect is the problem. 🔁'
+    text: 'If your effect fixes your effect, your effect is the problem.aegerqgregq4rqgqrqegqergeqrgerwgerwgerg 🔁'
   },
   {
     author: 'npm_therapist',

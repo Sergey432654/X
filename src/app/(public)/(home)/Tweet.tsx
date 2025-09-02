@@ -9,8 +9,8 @@ interface Props{
 
 export default function Tweet({tweet}: Props){
     return(
-        <div className="border border-white/10 px-1 py-3 rounded-4xl bg-black">
-            <div className="flex items-center gap-3 mb-2">
+        <div>
+            <div className="space-y-2">
                 <Image
                 src="/X_Logo.png"
                 alt="X-logo"
