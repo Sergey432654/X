@@ -1,7 +1,10 @@
-export default function Explore(){
+import Explore from "./Explore"
+import { Suspense } from "react"
+
+export default function ExplorePage(){
     return(
-        <>
-            <span className="bg-blue-500">fafffewfq</span>
-        </>
+        <Suspense>
+            <Explore/>
+        </Suspense>
     )
 }
