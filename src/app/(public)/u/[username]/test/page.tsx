@@ -1,18 +1,18 @@
 
 
-type Params = {tag?: string}
+type Params = {username: string}
 
 export default async function TestPage({
-searchParams
+params
 }:{
-    searchParams: Promise<Params>
+    params: Promise<Params>
 }){
-    const {tag} = await searchParams
+    const {username} = await params
 
     return( 
         <div>
             <h1 className="text-3xl font-bold mb-6">
-                {!!tag && `by #${tag}`}
+                Profile @{username}
             </h1>
         </div>
     )
