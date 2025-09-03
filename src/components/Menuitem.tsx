@@ -1,4 +1,4 @@
-import { PAGES } from "@/app/config /pages.config";
+import { PAGES } from "@/config /pages.config";
 import Link from "next/link";
 import type { IMenuItem } from "./menu.data";
 

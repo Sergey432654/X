@@ -2,7 +2,7 @@
 import Header from "@/components/header";
 import { usePathname } from "next/navigation";
 import type { PropsWithChildren } from "react";
-import { PAGES } from "../config /pages.config";
+import { PAGES } from "../../config /pages.config";
 
 export default function Layout({children}:
     PropsWithChildren<unknown>){

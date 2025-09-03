@@ -1,6 +1,6 @@
 'use client'
 import { useRouter } from "next/navigation"
-import { PAGES } from "@/app/config /pages.config"
+import { PAGES } from "@/config /pages.config"
 
 export default function ProfilFake(){
     const rout = useRouter()
