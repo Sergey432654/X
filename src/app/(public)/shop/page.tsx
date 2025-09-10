@@ -1,6 +1,11 @@
 import FakeShop from "./FakeShop"
+import Ppn from "./ppn/page"
 export default function Shop(){
     return(
-        <FakeShop/>
+        <div>
+            <FakeShop/>
+            <Ppn/>
+        </div>
+
     )
 }
